@@ -1,6 +1,9 @@
 # A fork of the Go standard library's json encoder
 
-Differences:
+## Why?
+https://github.com/golang/go/issues/6213 was proposed in 2013 but was never accepted.
+
+## Differences:
  - added support for the "inline" struct tag that forces the encoder/decoder to work as if the field was embedded into its parent struct
 
 Examples:
